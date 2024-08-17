@@ -106,6 +106,20 @@
     .tab-area label {
         display: block;
     }
+
+    .product-dec table, 
+    .product-dec tr, 
+    .product-dec td, 
+    .product-dec tbody, 
+    .product-dec td p table div, 
+    .product-dec table table{
+        display:block;
+        text-align:center;
+    }
+    .product-dec table,
+    .product-dec table tr{
+         border: none !important;
+    }
 }
 
 /***** Wide Mobile Layout *****/
