@@ -1,0 +1,324 @@
+/*  ================================
+        global area start
+    ================================ */
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
+}
+
+a,
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main-opacity {
+    z-index: 999;
+    position: relative;
+}
+
+/*  ================================
+        global area end
+    ================================ */
+
+/*  ================================
+        header area start
+    ================================ */
+.logo {
+    background-color: #B11723;
+}
+
+.service-box {
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.support-box ul.service-box-list li {
+    float: left;
+    width: 24.3%;
+    list-style: none;
+    position: relative;
+    padding: 10px 0;
+    margin-right: 10px;
+}
+
+.support-box ul li:last-child {
+    margin-right: 0;
+}
+
+.service-left {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+.service-left .flag {
+    border-radius: 100%;
+}
+
+.service-right {
+    width: 70%;
+    float: right;
+    padding: 8px 16px;
+    padding-right: 0;
+    display: inline-block;
+    transition: 0.5s;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    font-weight: 600;
+}
+
+.service-right::before {
+    position: absolute;
+    bottom: 0;
+    left: 17px;
+    content: "";
+    border-bottom: 1px solid #B11723;
+    width: 50%;
+}
+
+.service-right::after {
+    position: absolute;
+    bottom: -4px;
+    left: 14px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #B11723;
+}
+
+/*  ================================
+        header area end
+    ================================ */
+
+/*  ================================
+        product title area start
+    ================================ */
+
+.pro-title {
+    background-color: #000;
+    padding: 15px 50px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    margin-top: 30px;
+}
+
+.pro-title h5 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*  ================================
+        product title area end
+    ================================ */
+
+/*  ================================
+        product area start
+    ================================ */
+
+.gallery-content {
+    margin: 10px 0 0;
+    background-color: #fff;
+    position: relative;
+    height: 641px;
+}
+
+.gallery-content img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    padding: 30px;    
+}
+
+.product-dec {
+    border: 1px solid #eee;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.product-dec h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-size: 22px;
+    margin: 30px 0 20px;
+    font-weight: 700;
+}
+
+.product-dec h3:first-child {
+    margin-top: 0;
+}
+
+.product-dec h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.product-dec ul {
+    margin-bottom: 30px;
+}
+
+.product-dec ul li,
+.tab-list ul li {
+    list-style: none;
+    padding: 5px 20px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.product-dec ul li::before,
+.tab-list ul li::before {
+    position: absolute;
+    content: "\f00c";
+    font-family: fontawesome;
+    left: 0;
+    color: #B11723;
+}
+
+.product-dec table,
+.product-dec table th,
+.product-dec table tr,
+.product-dec table tr td {
+    border: 1px solid #eee !important;
+    padding: 10px !important;
+    padding: 10px !important;
+}
+
+/*  ================================
+        product area end
+    ================================ */
+
+/*  ================================
+        tab area start
+    ================================ */
+
+.tab-part-area {
+    padding: 10px 0;
+}
+
+.tab-area {
+    text-align: center;
+}
+
+.tab-list {
+    text-align: left;
+}
+
+section.tab-section {
+    display: none;
+    padding: 30px;
+    color: #1a1a1a;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #eee;
+}
+
+.tab-area input {
+    display: none;
+}
+
+.tab-area label {
+    color: #1a1a1a;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: #F8F8FA;
+    border: 1px solid #eee;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.tab-area label:hover {
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #B11723;
+    background-color: #B11723;
+}
+
+.tab-area input:checked + label {
+    color: #fff;
+    border: 1px solid #B11723;
+    background-color: #B11723;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5,
+#tab6:checked ~ #content6 {
+    display: block;
+}
+
+.tab-section section li {
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.tab-section p a {
+    color: #B11723;
+    font-weight: 600;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*  ================================
+        tab area end
+    ================================ */
+
+/*  ================================
+        footer area start
+    ================================ */
+
+.copy-right p {
+    background-color: #000;
+    padding: 10px 0;
+    margin: 10px 0 0;
+    color: #fff;
+}
+
+/*  ================================
+        footer area end
+    ================================ */
